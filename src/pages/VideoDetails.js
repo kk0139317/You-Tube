@@ -47,14 +47,15 @@ const VideoDetails = () => {
       <div className="w-full max-w-[1280px] flex flex-col lg:flex-row ">
         <div className="flex flex-col lg:w-[calc(100%-350px)] xl:w-[calc(100%-400px)] px-4 py-3 lg:py-6 overflow-y-auto">
           <div className="h-[200px] md:h-[400px] lg:h-[400px] xl:h-[550px] ml-[-16px] lg:ml-0 mr-[-16px] lg:mr-0">
-            <ReactPlayer
-              url={`https://www.youtube.com/watch?v=${id}`}
-              controls
-              width="100%"
-              height="100%"
-              style={{ backgroundColor: "#000000" }}
-              playing={true}
-            />
+          <ReactPlayer
+  url={`https://www.youtube.com/watch?v=${id}`}
+  controls
+  width="100%"
+  height="100%"
+  style={{ backgroundColor: "#000000" }}
+  playing={true}
+/>
+
           </div>
 
           <div className="text-black dark:text-white font-bold text-sm md:text-xl mt-4 line-clamp-2">
@@ -107,7 +108,7 @@ const VideoDetails = () => {
         </div>
 
         <div className="flex flex-col py-6 px-4 overflow-y-auto lg:w-[350px] xl:w-[400px]">
-          sdfjdsgh
+          
           {/* When relatedVideos is blank means data is not fetched yet meanwhile that time show Shimmer UI 
              when data fetching is done that means we get relatedVideos data and then show the data in the dom*/}
           {relatedVideos === ""
