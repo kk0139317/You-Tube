@@ -63,7 +63,7 @@ const Feed = () => {
     {
       id: 1,
       title: "First Video",
-      thumbnail: Thumbnail,
+      thumbnail: "https://semupdates.com/wp-content/uploads/2017/09/video-marketing-how-to-create-a-quick-youtube-campaign-in-just-30-minutes.jpg",
       views: "1M views",
       uploadDate: "2 weeks ago",
       description: "This is the first video in the feed."

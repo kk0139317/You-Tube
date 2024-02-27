@@ -63,7 +63,7 @@ const VideoCard = () => {
   // Hardcoded data for demonstration
   const video = {
     title: "Sample Video",
-    thumbnail: "https://via.placeholder.com/210x118",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQASmfxxJ06IShZqj57OlTyLBU8cz2p5Cj6vg&usqp=CAU",
     views: "2M views",
     uploadDate: "1 week ago",
     description: "This is a sample video description to show how you can structure a video card without fetching data from an API."
